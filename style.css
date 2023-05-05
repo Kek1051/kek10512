@@ -1,0 +1,251 @@
+h1 {
+    /* color: rgba(65, 105, 225, 0.808); */
+    /* color: rgb(23, 230, 230); */
+    color: rgb(0, 180, 180);
+    font-style: oblique;
+    font-size: 60px;
+
+}
+
+body {
+    background: linear-gradient(-45deg, red, crimson, aqua, aquamarine);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    margin: 0px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+p {
+    color: black;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+
+.code {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: large;
+    margin: 10px;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+    border-width: 4px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: inset 0.1px 0.1px 60px 35px aquamarine, 0.1px 0.1px 40px 10px aqua;
+    padding: 20px;
+    margin: 50px 200px;
+
+}
+
+a:hover {
+    background-color: rgba(255, 255, 0, 0.678);
+    box-shadow: 2.5px 5px 10px 1px rgba(0, 0, 0, 0.192);
+}
+
+a {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: lightskyblue;
+    height: 50px;
+    padding: 1rem;
+
+}
+
+
+
+.heading:hover {
+    box-shadow: inset 0.1px 0.1px 60px 35px red, 0.1px 0.1px 40px 10px crimson;
+    border-color: crimson;
+    color: rgb(165, 20, 60);
+}
+
+
+
+/* @keyframes bg-colour-animation { */
+/* 0% { */
+/* background-color: rgb(255, 130, 130) */
+/* }
+
+    10% {
+        background-color: rgb(255, 186, 130);
+    }
+
+    20% {
+        background-color: rgb(255, 253, 130);
+    }
+
+    30% {
+        background-color: rgb(137, 255, 121);
+    }
+
+    40% {
+        background-color: rgb(130, 248, 169);
+    }
+
+    50% {
+        background-color: rgb(130, 248, 213);
+    }
+
+    60% {
+        background-color: rgb(130, 205, 248);
+    }
+
+    70% {
+        background-color: rgb(130, 132, 248);
+    }
+
+    80% {
+        background-color: rgb(215, 130, 248);
+    }
+
+    90% {
+        background-color: rgb(248, 130, 228);
+    }
+
+    100% {
+        background-color: rgb(248, 130, 185);
+    }
+} */
+
+.myForm {
+    border-width: 4px;
+    border-color: black;
+    border-style: groove;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    margin-top: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 40px;
+    padding: 5px;
+
+}
+
+input[type=submit] {
+    border-radius: 0px;
+
+}
+
+/* .stories-section {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    color: white;
+    padding: 20px;
+    height: 700px;
+    width: 1770px;
+} */
+
+/* @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+
+.stories {
+    color: black;
+    text-align: center;
+}
+
+.storytext {
+    color: black;
+    font-size: 30px;
+    font: normal;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+head {
+    background-color: white;
+}
+
+.joketitle {
+    color: black;
+    text-align: center;
+}
+
+#joke {
+    border: groove 3px black;
+    padding: 6px;
+    margin: 6px 6px;
+    font: italic;
+    font-weight: bold;
+}
+
+.jokebutton {
+    padding: 4px;
+    border: groove 5px black;
+    width: 200px;
+    height: 50px;
+    margin: 6px;
+}
+
+.contact {
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+p2 {
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
